@@ -1,0 +1,4458 @@
+'0.0001_0':
+  bkgd:
+    best:
+      diam: &id001 !!python/object/apply:numpy.core.multiarray.scalar
+      - &id003 !!python/object/apply:numpy.dtype
+        args:
+        - i8
+        - false
+        - true
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 13.297427386044813
+      model: binary_res
+      sep: 206.34141729527047
+      theta: 337.41849545853705
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - &id002 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      ma1lhYtcE0I=
+    comp:
+      alpha*: 0.0
+      diam*: *id001
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - &id005 !!python/object/apply:numpy.dtype
+        args:
+        - f4
+        - false
+        - true
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AJGCRyFxPz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        NbRJxALPU8A=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        qTNV+rTQZ0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wHw1dGvJ4D8=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 3768953.8887843504
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1797912.3549259873
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 472527.6926902943
+  bkgd_flat:
+    best:
+      diam: &id004 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 13.297427386044813
+      model: binary_res
+      sep: 206.34141729527047
+      theta: 337.41849545853705
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ma1lhYtcE0I=
+    comp:
+      alpha*: 0.0
+      diam*: *id004
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AJGCRyFxPz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        NbRJxALPU8A=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        qTNV+rTQZ0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wHw1dGvJ4D8=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 3768953.8887843504
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1797912.3549259873
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 472527.6926902943
+  bkgd_jitt:
+    best:
+      diam: &id006 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745484039408
+      model: binary_res
+      sep: 197.38473161777173
+      theta: 0.061267946613548764
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      aE/H8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id006
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        PNn1OrOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ogeR7k0Eyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        7igEzE6saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01984887526710481
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377235150669467
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3249318520891109
+  bkgd_jitt_flat:
+    best:
+      diam: &id007 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745484039408
+      model: binary_res
+      sep: 197.38473161777173
+      theta: 0.061267946613548764
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      aE/H8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id007
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        PNn1OrOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ogeR7k0Eyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        7igEzE6saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01984887526710481
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377235150669467
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3249318520891109
+  dark:
+    best:
+      diam: &id008 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.101506700909832
+      model: binary_res
+      sep: 194.43646146877322
+      theta: 0.4584940821986682
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      APX3T57VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id008
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cq3DuO6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        SteExQDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AQNsfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024778876665862672
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.402294282323696
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730188485598
+  dark_bkgd:
+    best:
+      diam: &id009 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.1015067114451
+      model: binary_res
+      sep: 194.4364614747606
+      theta: 0.45849408421387955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      H4EAMZ7VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id009
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nle6te6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lBJexwDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        WzJvfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02477887632213143
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4022942473334918
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730267569237
+  dark_bkgd_flat:
+    best:
+      diam: &id010 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.1015067114451
+      model: binary_res
+      sep: 194.4364614747606
+      theta: 0.45849408421387955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      H4EAMZ7VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id010
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nle6te6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lBJexwDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        WzJvfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02477887632213143
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4022942473334918
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730267569237
+  dark_bkgd_jitt:
+    best:
+      diam: &id011 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745435749439
+      model: binary_res
+      sep: 197.3848279505691
+      theta: 0.06127272081581554
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Fy038p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id011
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Rk2SSbOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Kzzaw9gEyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        7PYAlk+saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01984889940002672
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377192517813182
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32493144844645355
+  dark_bkgd_jitt_flat:
+    best:
+      diam: &id012 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745435749439
+      model: binary_res
+      sep: 197.3848279505691
+      theta: 0.06127272081581554
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Fy038p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id012
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Rk2SSbOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Kzzaw9gEyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        7PYAlk+saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01984889940002672
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377192517813182
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32493144844645355
+  dark_flat:
+    best:
+      diam: &id013 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.101506700909832
+      model: binary_res
+      sep: 194.43646146877322
+      theta: 0.4584940821986682
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      APX3T57VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id013
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cq3DuO6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        SteExQDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AQNsfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024778876665862672
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.402294282323696
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730188485598
+  dark_jitt:
+    best:
+      diam: &id014 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745468900586
+      model: binary_res
+      sep: 197.3847312260309
+      theta: 0.061268876328818084
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JNjH8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id014
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        YHmKP7OUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cITMy2gEyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ygEwy06saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019848876146110805
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377235211115564
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3249318397421666
+  dark_jitt_flat:
+    best:
+      diam: &id015 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745468900586
+      model: binary_res
+      sep: 197.3847312260309
+      theta: 0.061268876328818084
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JNjH8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id015
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        YHmKP7OUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cITMy2gEyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ygEwy06saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019848876146110805
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377235211115564
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3249318397421666
+  flat:
+    best:
+      diam: &id016 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10150672484861
+      model: binary_res
+      sep: 194.43646141139135
+      theta: 0.45849398384764717
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hwXnR57VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id016
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        UWDdse6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        4znOawDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        1KNOfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02477887648882014
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4022943028060861
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730273605072
+  jitt:
+    best:
+      diam: &id017 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745432773025
+      model: binary_res
+      sep: 197.38482776235105
+      theta: 0.06127291809066579
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      +VGw8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id017
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        d9l4SrOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6JPhdt4Eyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j4ablU+saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019848905296590405
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377192424603466
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32493153673744585
+  jitt_flat:
+    best:
+      diam: &id018 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048745432773025
+      model: binary_res
+      sep: 197.38482776235105
+      theta: 0.06127291809066579
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      +VGw8p8lJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id018
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        d9l4SrOUgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6JPhdt4Eyz8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j4ablU+saEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019848905296590405
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1377192424603466
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32493153673744585
+  photonly.oifits:
+    best:
+      diam: &id019 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10150672484861
+      model: binary_res
+      sep: 194.43646141139135
+      theta: 0.45849398384764717
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hwXnR57VKz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id019
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        UWDdse6mgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        4znOawDl+D8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        1KNOfsRNaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02477887648882014
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4022943028060861
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4108730273605072
+  read:
+    best:
+      diam: &id020 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.100823075786531
+      model: binary_res
+      sep: 194.48246705612362
+      theta: 0.36647266512850196
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      KxvoToFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id020
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        bJ6qoPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        X8XaqSTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        xTjbx09PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974752437091633
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149770308315497
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.41394873375033775
+  read_bkgd:
+    best:
+      diam: &id021 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.100823069013032
+      model: binary_res
+      sep: 194.48246656785298
+      theta: 0.36647259541512955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Al66RYFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id021
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2rWeovCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KT9/aSTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        wObVxk9PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751571327135
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149769914402988
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.41394872653890663
+  read_bkgd_flat:
+    best:
+      diam: &id022 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.100823069013032
+      model: binary_res
+      sep: 194.48246656785298
+      theta: 0.36647259541512955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Al66RYFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id022
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2rWeovCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KT9/aSTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        wObVxk9PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751571327135
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149769914402988
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.41394872653890663
+  read_bkgd_jitt:
+    best:
+      diam: &id023 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689934960987
+      model: binary_res
+      sep: 197.46951151504044
+      theta: 0.07913955816099492
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      TzsEkNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id023
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        XtU6hXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        G7M8mcx00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Atn4sQSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596728621392324
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588318683385
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3206848523895941
+  read_bkgd_jitt_flat:
+    best:
+      diam: &id024 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689934960987
+      model: binary_res
+      sep: 197.46951151504044
+      theta: 0.07913955816099492
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      TzsEkNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id024
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        XtU6hXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        G7M8mcx00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Atn4sQSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596728621392324
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588318683385
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3206848523895941
+  read_dark:
+    best:
+      diam: &id025 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10082306187903
+      model: binary_res
+      sep: 194.4824663172818
+      theta: 0.3664726819144286
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      KL18L4FmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id025
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9WqtpPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        bmfhtyTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HF9Oxk9PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751611917728
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149769579961895
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4139487021786337
+  read_dark_bkgd:
+    best:
+      diam: &id026 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10082307504701
+      model: binary_res
+      sep: 194.48246672124185
+      theta: 0.3664724208014966
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ByngTIFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id026
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2jfhoPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        TF6pyiPn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9Egqx09PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751988853242
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.414977029494765
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4139487040712217
+  read_dark_bkgd_flat:
+    best:
+      diam: &id027 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10082307504701
+      model: binary_res
+      sep: 194.48246672124185
+      theta: 0.3664724208014966
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ByngTIFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id027
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2jfhoPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        TF6pyiPn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9Egqx09PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751988853242
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.414977029494765
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4139487040712217
+  read_dark_bkgd_jitt:
+    best:
+      diam: &id028 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689946079902
+      model: binary_res
+      sep: 197.46951185406573
+      theta: 0.07913882666358908
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      kWOthNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id028
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9lvagXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ECu7BsJ00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2LqwsgSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596729671070616
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.123158871472808
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3206849432774938
+  read_dark_bkgd_jitt_flat:
+    best:
+      diam: &id029 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689946079902
+      model: binary_res
+      sep: 197.46951185406573
+      theta: 0.07913882666358908
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      kWOthNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id029
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9lvagXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ECu7BsJ00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2LqwsgSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596729671070616
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.123158871472808
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3206849432774938
+  read_dark_flat:
+    best:
+      diam: &id030 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.10082306187903
+      model: binary_res
+      sep: 194.4824663172818
+      theta: 0.3664726819144286
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      KL18L4FmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id030
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9WqtpPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        bmfhtyTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HF9Oxk9PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974751611917728
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149769579961895
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4139487021786337
+  read_dark_jitt:
+    best:
+      diam: &id031 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689946605242
+      model: binary_res
+      sep: 197.4695117888381
+      theta: 0.07913880049958956
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wbVgg9LAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id031
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3IOxgXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9ZLPpcF00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        J8eNsgSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596729962932644
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588343703145
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32068493932640046
+  read_dark_jitt_flat:
+    best:
+      diam: &id032 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689946605242
+      model: binary_res
+      sep: 197.4695117888381
+      theta: 0.07913880049958956
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wbVgg9LAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id032
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3IOxgXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9ZLPpcF00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        J8eNsgSvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019596729962932644
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588343703145
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32068493932640046
+  read_flat:
+    best:
+      diam: &id033 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.100823075786531
+      model: binary_res
+      sep: 194.48246705612362
+      theta: 0.36647266512850196
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      KxvoToFmLD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id033
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        bJ6qoPCpgj8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        X8XaqSTn8z8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        xTjbx09PaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.024974752437091633
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.4149770308315497
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.41394873375033775
+  read_jitt:
+    best:
+      diam: &id034 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689974783354
+      model: binary_res
+      sep: 197.4695125709342
+      theta: 0.07913701525982665
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4QCzhNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id034
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        y7gieXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3MNw2Kd00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        hzk2tASvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01959672978405449
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588577579807
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32068490302992864
+  read_jitt_flat:
+    best:
+      diam: &id035 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.044689974783354
+      model: binary_res
+      sep: 197.4695125709342
+      theta: 0.07913701525982665
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4QCzhNLAIz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id035
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        y7gieXWngz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3MNw2Kd00T8=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        hzk2tASvaEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01959672978405449
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1231588577579807
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.32068490302992864
+'0.0001_45':
+  bkgd:
+    best:
+      diam: &id036 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454617582555
+      model: binary_res
+      sep: 196.4227571964346
+      theta: 46.20361447304955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6wWG742vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id036
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        UFiJ/BJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        +kPFMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        YLuYAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017633848271267752
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706243943617844
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360787788057115
+  bkgd_flat:
+    best:
+      diam: &id037 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454617582555
+      model: binary_res
+      sep: 196.4227571964346
+      theta: 46.20361447304955
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6wWG742vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id037
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        UFiJ/BJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        +kPFMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        YLuYAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017633848271267752
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706243943617844
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360787788057115
+  bkgd_jitt:
+    best:
+      diam: &id038 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396495319
+      model: binary_res
+      sep: 197.81806223331137
+      theta: 45.50381780259307
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4nia0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id038
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KOgx0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9qsXRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        qZS5XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017920293652583973
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758889454
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089456434
+  bkgd_jitt_flat:
+    best:
+      diam: &id039 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396495319
+      model: binary_res
+      sep: 197.81806223331137
+      theta: 45.50381780259307
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4nia0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id039
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KOgx0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9qsXRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        qZS5XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017920293652583973
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758889454
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089456434
+  dark:
+    best:
+      diam: &id040 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454613446827
+      model: binary_res
+      sep: 196.42275717364643
+      theta: 46.20361449239793
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4v3A2Y2vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id040
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        0NbG/RJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        vhTVMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        fI92AjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384788248729
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.070624358167411
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360786734024804
+  dark_bkgd:
+    best:
+      diam: &id041 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454614858142
+      model: binary_res
+      sep: 196.4227570846779
+      theta: 46.203614449228304
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      fNUF7I2vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id041
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        jH5a/RJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Pp17Meu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ZdqOAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384815726887
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706243858850022
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360787554587316
+  dark_bkgd_flat:
+    best:
+      diam: &id042 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454614858142
+      model: binary_res
+      sep: 196.4227570846779
+      theta: 46.203614449228304
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      fNUF7I2vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id042
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        jH5a/RJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Pp17Meu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ZdqOAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384815726887
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706243858850022
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360787554587316
+  dark_bkgd_jitt:
+    best:
+      diam: &id043 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396605856
+      model: binary_res
+      sep: 197.8180622431341
+      theta: 45.503817805795066
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      keJK0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id043
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cEUp0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        05cfRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Dgu5XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017920293653601583
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105755571788
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275088358501
+  dark_bkgd_jitt_flat:
+    best:
+      diam: &id044 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396605856
+      model: binary_res
+      sep: 197.8180622431341
+      theta: 45.503817805795066
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      keJK0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id044
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cEUp0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        05cfRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Dgu5XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017920293653601583
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105755571788
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275088358501
+  dark_flat:
+    best:
+      diam: &id045 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454613446827
+      model: binary_res
+      sep: 196.42275717364643
+      theta: 46.20361449239793
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      4v3A2Y2vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id045
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        0NbG/RJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        vhTVMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        fI92AjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384788248729
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.070624358167411
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31360786734024804
+  dark_jitt:
+    best:
+      diam: &id046 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396666588
+      model: binary_res
+      sep: 197.81806224671845
+      theta: 45.50381780482926
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      e8ly0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id046
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3oYk0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        BbYfRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        OKu7XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01792029364603063
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758367325
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089117413
+  dark_jitt_flat:
+    best:
+      diam: &id047 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396666588
+      model: binary_res
+      sep: 197.81806224671845
+      theta: 45.50381780482926
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      e8ly0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id047
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3oYk0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        BbYfRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        OKu7XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01792029364603063
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758367325
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089117413
+  flat:
+    best:
+      diam: &id048 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454624062499
+      model: binary_res
+      sep: 196.4227570936471
+      theta: 46.20361442701138
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      aQAo942vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id048
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j+OX+hJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KMpiMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ZLOvAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384870513282
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706244187407365
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3136078851376208
+  jitt:
+    best:
+      diam: &id049 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396725465
+      model: binary_res
+      sep: 197.81806224646616
+      theta: 45.50381780342562
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      e3Bn0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id049
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        W+0f0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        eModRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        A269XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01792029367328441
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758919513
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089244482
+  jitt_flat:
+    best:
+      diam: &id050 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.039474396725465
+      model: binary_res
+      sep: 197.81806224646616
+      theta: 45.50381780342562
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      e3Bn0KM7JD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id050
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        W+0f0K+/gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        eModRUyjYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        A269XJRUYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01792029367328441
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0952105758919513
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3178275089244482
+  photonly.oifits:
+    best:
+      diam: &id051 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.058454624062499
+      model: binary_res
+      sep: 196.4227570936471
+      theta: 46.20361442701138
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      aQAo942vIj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id051
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j+OX+hJogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KMpiMeu4YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        ZLOvAjP+YEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01763384870513282
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0706244187407365
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3136078851376208
+  read:
+    best:
+      diam: &id052 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.05582075576585
+      model: binary_res
+      sep: 196.4956256170897
+      theta: 46.16356320711919
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      BvzObeC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id052
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        VKvdBiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ct/EBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nVxLEPwCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01761438632276336
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480386280105
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265119521751
+  read_bkgd:
+    best:
+      diam: &id053 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820744396167
+      model: binary_res
+      sep: 196.4956254426967
+      theta: 46.16356326113957
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      61NlhOC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id053
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        u59ICiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        aDnGBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        l8XCD/wCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614386679945356
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480633912881
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265195315996
+  read_bkgd_flat:
+    best:
+      diam: &id054 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820744396167
+      model: binary_res
+      sep: 196.4956254426967
+      theta: 46.16356326113957
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      61NlhOC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id054
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        u59ICiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        aDnGBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        l8XCD/wCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614386679945356
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480633912881
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265195315996
+  read_bkgd_jitt:
+    best:
+      diam: &id055 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260926083
+      model: binary_res
+      sep: 197.81932399433268
+      theta: 45.46673482806421
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6T4r5sUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id055
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        duEzSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Xut+TnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9O5pgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017818754687783475
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.089286845780807
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31606289278544974
+  read_bkgd_jitt_flat:
+    best:
+      diam: &id056 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260926083
+      model: binary_res
+      sep: 197.81932399433268
+      theta: 45.46673482806421
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      6T4r5sUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id056
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        duEzSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Xut+TnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        9O5pgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017818754687783475
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.089286845780807
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.31606289278544974
+  read_dark:
+    best:
+      diam: &id057 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820739767862
+      model: binary_res
+      sep: 196.49562543833719
+      theta: 46.16356321966011
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hJ44fuC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id057
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nsusCyR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        BaSPBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        RD34D/wCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614386460786093
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480506107233
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265157216481
+  read_dark_bkgd:
+    best:
+      diam: &id058 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820704691342
+      model: binary_res
+      sep: 196.49558214837083
+      theta: 46.1635553149033
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      zitcfeC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id058
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cRw4FiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yhSznI63YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5aAZ+vsCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614358628922064
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698496389934826
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132271139555178
+  read_dark_bkgd_flat:
+    best:
+      diam: &id059 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820704691342
+      model: binary_res
+      sep: 196.49558214837083
+      theta: 46.1635553149033
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      zitcfeC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id059
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        cRw4FiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yhSznI63YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5aAZ+vsCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614358628922064
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698496389934826
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132271139555178
+  read_dark_bkgd_jitt:
+    best:
+      diam: &id060 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260404582
+      model: binary_res
+      sep: 197.8193240652366
+      theta: 45.466734809258426
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Mb9V3MUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id060
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3KhcSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        kJuBTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j3qdgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01781875442030501
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868294570772
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3160628879229297
+  read_dark_bkgd_jitt_flat:
+    best:
+      diam: &id061 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260404582
+      model: binary_res
+      sep: 197.8193240652366
+      theta: 45.466734809258426
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      Mb9V3MUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id061
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        3KhcSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        kJuBTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        j3qdgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01781875442030501
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868294570772
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3160628879229297
+  read_dark_flat:
+    best:
+      diam: &id062 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.055820739767862
+      model: binary_res
+      sep: 196.49562543833719
+      theta: 46.16356321966011
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hJ44fuC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id062
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nsusCyR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        BaSPBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        RD34D/wCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017614386460786093
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480506107233
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265157216481
+  read_dark_jitt:
+    best:
+      diam: &id063 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260478839
+      model: binary_res
+      sep: 197.81932409436257
+      theta: 45.46673480530642
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dGm13MUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id063
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        atpWSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6Z2HTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yqqtgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017818754451346036
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868291664313
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3160628877787683
+  read_dark_jitt_flat:
+    best:
+      diam: &id064 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260478839
+      model: binary_res
+      sep: 197.81932409436257
+      theta: 45.46673480530642
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      dGm13MUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id064
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        atpWSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6Z2HTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yqqtgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.017818754451346036
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868291664313
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3160628877787683
+  read_flat:
+    best:
+      diam: &id065 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.05582075576585
+      model: binary_res
+      sep: 196.4956256170897
+      theta: 46.16356320711919
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      BvzObeC6Ij8=
+    comp:
+      alpha*: 0.0
+      diam*: *id065
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        VKvdBiR0gz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ct/EBY+3YUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        nVxLEPwCYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01761438632276336
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0698480386280105
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3132265119521751
+  read_jitt:
+    best:
+      diam: &id066 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260536496
+      model: binary_res
+      sep: 197.8193240590256
+      theta: 45.466734812398
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      r2oD3sUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id066
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        L1hSSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        40+DTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5v2WgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01781875447586477
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868318607651
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.316062888626856
+  read_jitt_flat:
+    best:
+      diam: &id067 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.038460260536496
+      model: binary_res
+      sep: 197.8193240590256
+      theta: 45.466734812398
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      r2oD3sUGJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id067
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        L1hSSGnEgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        40+DTnSgYUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5v2WgYdXYUA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01781875447586477
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0892868318607651
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.316062888626856
+'0.0001_90':
+  bkgd:
+    best:
+      diam: &id068 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048394139973539
+      model: binary_res
+      sep: 202.13586148370456
+      theta: 88.01484466950075
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RVvzPi0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id068
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Oj+yjlKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        apavKndAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KyXHniYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134209032471028
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097836803675
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919838379416
+  bkgd_flat:
+    best:
+      diam: &id069 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048394139973539
+      model: binary_res
+      sep: 202.13586148370456
+      theta: 88.01484466950075
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RVvzPi0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id069
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Oj+yjlKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        apavKndAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        KyXHniYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134209032471028
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097836803675
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919838379416
+  bkgd_jitt:
+    best:
+      diam: &id070 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537312586984
+      model: binary_res
+      sep: 201.17458101229104
+      theta: 90.06175504789164
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      axO0ZkHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id070
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        MtseGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        f+XbNZUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        03HCdCTBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946138464443
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1273298908460865
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085216167771605
+  bkgd_jitt_flat:
+    best:
+      diam: &id071 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537312586984
+      model: binary_res
+      sep: 201.17458101229104
+      theta: 90.06175504789164
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      axO0ZkHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id071
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        MtseGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        f+XbNZUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        03HCdCTBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946138464443
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1273298908460865
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085216167771605
+  dark:
+    best:
+      diam: &id072 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.04839413998226
+      model: binary_res
+      sep: 202.13586079993374
+      theta: 88.0148446221398
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ubtmMS0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id072
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        QJKxjlKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lJo9KXdAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6QRlqCYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01813420885711534
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0450978111312024
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36739198030789283
+  dark_bkgd:
+    best:
+      diam: &id073 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048394142673668
+      model: binary_res
+      sep: 202.13586072293904
+      theta: 88.01484449765785
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hUNtGC0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id073
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        NgjhjVKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AyAMKXdAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        JXWrxSYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134208227498342
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097775744936
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919704352922
+  dark_bkgd_flat:
+    best:
+      diam: &id074 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.048394142673668
+      model: binary_res
+      sep: 202.13586072293904
+      theta: 88.01484449765785
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      hUNtGC0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id074
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        NgjhjVKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AyAMKXdAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        JXWrxSYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134208227498342
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097775744936
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919704352922
+  dark_bkgd_jitt:
+    best:
+      diam: &id075 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537310332663
+      model: binary_res
+      sep: 201.17458183045594
+      theta: 90.06175616458009
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      TJSyZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id075
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5a/JGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        VeCQN5UlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HlSnWkXBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019729460880281713
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.127329931031299
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4208523000252647
+  dark_bkgd_jitt_flat:
+    best:
+      diam: &id076 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537310332663
+      model: binary_res
+      sep: 201.17458183045594
+      theta: 90.06175616458009
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      TJSyZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id076
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        5a/JGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        VeCQN5UlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HlSnWkXBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.019729460880281713
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.127329931031299
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4208523000252647
+  dark_flat:
+    best:
+      diam: &id077 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.04839413998226
+      model: binary_res
+      sep: 202.13586079993374
+      theta: 88.0148446221398
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      ubtmMS0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id077
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        QJKxjlKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lJo9KXdAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        6QRlqCYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01813420885711534
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0450978111312024
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36739198030789283
+  dark_jitt:
+    best:
+      diam: &id078 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.07253731121796
+      model: binary_res
+      sep: 201.17458094330038
+      theta: 90.06175537629794
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      c1mQZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id078
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        l5mGGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        rzC2NZUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        iUjVIC7By78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946107222202
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.12732995960856
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085230600389256
+  dark_jitt_flat:
+    best:
+      diam: &id079 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.07253731121796
+      model: binary_res
+      sep: 201.17458094330038
+      theta: 90.06175537629794
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      c1mQZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id079
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        l5mGGQ0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        rzC2NZUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        iUjVIC7By78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946107222202
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.12732995960856
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085230600389256
+  flat:
+    best:
+      diam: &id080 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.04839413365448
+      model: binary_res
+      sep: 202.13586017587275
+      theta: 88.01484434019501
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      suJ4JC0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id080
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Q96bkFKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HkTcJ3dAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        S+an6SYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134208258156304
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097785366962
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919695054927
+  jitt:
+    best:
+      diam: &id081 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537313127249
+      model: binary_res
+      sep: 201.174581221431
+      theta: 90.06175496648144
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      H86wZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id081
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ter1GA0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        zFdMNpUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        L/llDyLBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946175685155
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.127329949118733
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085237400484965
+  jitt_flat:
+    best:
+      diam: &id082 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072537313127249
+      model: binary_res
+      sep: 201.174581221431
+      theta: 90.06175496648144
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      H86wZUHnJj8=
+    comp:
+      alpha*: 0.0
+      diam*: *id082
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ter1GA0ogz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        zFdMNpUlaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        L/llDyLBy78=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.01972946175685155
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.127329949118733
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.42085237400484965
+  photonly.oifits:
+    best:
+      diam: &id083 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.04839413365448
+      model: binary_res
+      sep: 202.13586017587275
+      theta: 88.01484434019501
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      suJ4JC0jJD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id083
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Q96bkFKWgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HkTcJ3dAaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        S+an6SYCHEA=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018134208258156304
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.045097785366962
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673919695054927
+  read:
+    best:
+      diam: &id084 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.05055768265483
+      model: binary_res
+      sep: 202.20543644752863
+      theta: 88.07729577265326
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      WroIVGj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id084
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        /Z2DJVeMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2x/jV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        MKB+pQ8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103662833688
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133649278765
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673210561986204
+  read_bkgd:
+    best:
+      diam: &id085 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557678377851
+      model: binary_res
+      sep: 202.2054364128736
+      theta: 88.07729563106354
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      L5NaTmj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id085
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AVrOJleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Y4fHV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lHPuxg8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103320688334
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133535415917
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36732104966265655
+  read_bkgd_flat:
+    best:
+      diam: &id086 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557678377851
+      model: binary_res
+      sep: 202.2054364128736
+      theta: 88.07729563106354
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      L5NaTmj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id086
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        AVrOJleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Y4fHV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        lHPuxg8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103320688334
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133535415917
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36732104966265655
+  read_bkgd_jitt:
+    best:
+      diam: &id087 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070721265822
+      model: binary_res
+      sep: 201.2337276453324
+      theta: 89.96850731989383
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2IvLH/jGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id087
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        x3HXuygqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        OFGmcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ypdib9NQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021257546753
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729019275955015
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.43695220616355374
+  read_bkgd_jitt_flat:
+    best:
+      diam: &id088 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070721265822
+      model: binary_res
+      sep: 201.2337276453324
+      theta: 89.96850731989383
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      2IvLH/jGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id088
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        x3HXuygqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        OFGmcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Ypdib9NQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021257546753
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729019275955015
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.43695220616355374
+  read_dark:
+    best:
+      diam: &id089 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557679392742
+      model: binary_res
+      sep: 202.20543624128828
+      theta: 88.07729559664467
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      QEjcQ2j9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id089
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        /N5/JleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        B0ZpV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        zDOxzg8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103035013448
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133378777703
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673210409277453
+  read_dark_bkgd:
+    best:
+      diam: &id090 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557678989488
+      model: binary_res
+      sep: 202.20543638788723
+      theta: 88.07729560575055
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      VLLfUGj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id090
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        4w2fJleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        R4O4V+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yevdzA8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103383095258
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133599323425
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36732104917512987
+  read_dark_bkgd_flat:
+    best:
+      diam: &id091 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557678989488
+      model: binary_res
+      sep: 202.20543638788723
+      theta: 88.07729560575055
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      VLLfUGj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id091
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        4w2fJleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        R4O4V+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        yevdzA8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103383095258
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133599323425
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.36732104917512987
+  read_dark_bkgd_jitt:
+    best:
+      diam: &id092 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.07207071843641
+      model: binary_res
+      sep: 201.23372763965793
+      theta: 89.96850794236522
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8sb3HvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id092
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        kPKtvCgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        euqjcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        b+KMwa5QvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021202872258
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.172901863444458
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4369515783905657
+  read_dark_bkgd_jitt_flat:
+    best:
+      diam: &id093 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.07207071843641
+      model: binary_res
+      sep: 201.23372763965793
+      theta: 89.96850794236522
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      8sb3HvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id093
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        kPKtvCgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        euqjcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        b+KMwa5QvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021202872258
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.172901863444458
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4369515783905657
+  read_dark_flat:
+    best:
+      diam: &id094 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.050557679392742
+      model: binary_res
+      sep: 202.20543624128828
+      theta: 88.07729559664467
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      QEjcQ2j9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id094
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        /N5/JleMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        B0ZpV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        zDOxzg8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103035013448
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133378777703
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673210409277453
+  read_dark_jitt:
+    best:
+      diam: &id095 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070719186648
+      model: binary_res
+      sep: 201.23372739526437
+      theta: 89.96850729506322
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JJkzHvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id095
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        FxJ1vCgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        iwkgcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Y7Jb5dRQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.0205102122264528
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729018169610061
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4369524499723649
+  read_dark_jitt_flat:
+    best:
+      diam: &id096 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070719186648
+      model: binary_res
+      sep: 201.23372739526437
+      theta: 89.96850729506322
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      JJkzHvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id096
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        FxJ1vCgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        iwkgcnonaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        Y7Jb5dRQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.0205102122264528
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729018169610061
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.4369524499723649
+  read_flat:
+    best:
+      diam: &id097 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.05055768265483
+      model: binary_res
+      sep: 202.20543644752863
+      theta: 88.07729577265326
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      WroIVGj9Iz8=
+    comp:
+      alpha*: 0.0
+      diam*: *id097
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        /Z2DJVeMgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        2x/jV+5CaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        MKB+pQ8jG0A=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.018098103662833688
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.0436133649278765
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.3673210561986204
+  read_jitt:
+    best:
+      diam: &id098 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070716412666
+      model: binary_res
+      sep: 201.23372800066238
+      theta: 89.96850900203998
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wQEyHvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id098
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        D19HvSgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        sNNmc3onaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HwB7UXBQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021203264458
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729020719123913
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.436952027671713
+  read_jitt_flat:
+    best:
+      diam: &id099 !!python/object/apply:numpy.core.multiarray.scalar
+      - *id003
+      - !!binary |
+        AAAAAAAAAAA=
+      dm: 10.072070716412666
+      model: binary_res
+      sep: 201.23372800066238
+      theta: 89.96850900203998
+      x0: 0
+      y0: 0
+    chi2: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      wQEyHvjGKD8=
+    comp:
+      alpha*: 0.0
+      diam*: *id099
+      dwavel;NIRISS: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id005
+      - !!binary |
+        huvRPg==
+      f: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        D19HvSgqgz8=
+      x: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        sNNmc3onaUA=
+      y: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id002
+      - !!binary |
+        HwB7UXBQvD8=
+    nsigma: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id002
+    - !!binary |
+      RX31ZSf7SEA=
+    uncer:
+      dm: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.02051021203264458
+      sep: !!python/object/new:uncertainties.core.CallableStdDev
+      - 1.1729020719123913
+      theta: !!python/object/new:uncertainties.core.CallableStdDev
+      - 0.436952027671713
