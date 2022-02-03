@@ -13,15 +13,15 @@ def powerset(iterable):
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
     s = list(iterable)
     return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
- 
+
 noise_comb = list(powerset(noise_types))
- 
+
 odir = '/ifs/jwst/wit/niriss/rcooper/ami_noise_sims/'
- 
+
 # with open("make_all_sims.sh", "w") as f:
 #     f.write('#!/bin/sh')
 #     f.write('\n')
- 
+
 def get_tag(noisetup):
 
         tag = ''
